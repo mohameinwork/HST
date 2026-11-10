@@ -32,12 +32,12 @@ export const Hero: React.FC = () => {
             </p>
 
             <div className="mt-8 flex flex-wrap gap-4">
-              <Button asChild size="lg">
+              <Button size="lg">
                 <a href="#contact" className="gap-2">
                   Book Free Consultation <ChevronRight className="w-4 h-4" />
                 </a>
               </Button>
-              <Button asChild variant="outline" size="lg">
+              <Button variant="outline" size="lg">
                 <a href="#services">Explore Services</a>
               </Button>
             </div>
