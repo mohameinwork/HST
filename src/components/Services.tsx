@@ -127,7 +127,7 @@ export const Services: React.FC = () => {
                     <ul className="space-y-2 text-sm text-muted-foreground">
                       {svc.items.map((item) => (
                         <li key={item} className="flex items-start gap-2">
-                          <span className="h-1.5 w-1.5 rounded-none bg-blue-600 mt-2 flex-shrink-0" />
+                          <span className="h-1.5 w-1.5 rounded-none bg-blue-600 mt-2 shrink-0" />
                           <span>{item}</span>
                         </li>
                       ))}
