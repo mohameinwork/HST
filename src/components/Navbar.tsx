@@ -25,12 +25,37 @@ export const Navbar: React.FC = () => {
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
-          <a href="#services" className="text-muted-foreground hover:text-foreground transition-colors">Services</a>
-          <a href="#about" className="text-muted-foreground hover:text-foreground transition-colors">About</a>
-          <a href="#clients" className="text-muted-foreground hover:text-foreground transition-colors">Clients</a>
-          <a href="#roadmap" className="text-muted-foreground hover:text-foreground transition-colors">Roadmap</a>
-          <a href="#team" className="text-muted-foreground hover:text-foreground transition-colors">Team</a>
-          <Button asChild size="sm">
+          <a
+            href="#services"
+            className="text-muted-foreground hover:text-foreground transition-colors"
+          >
+            Services
+          </a>
+          <a
+            href="#about"
+            className="text-muted-foreground hover:text-foreground transition-colors"
+          >
+            About
+          </a>
+          <a
+            href="#clients"
+            className="text-muted-foreground hover:text-foreground transition-colors"
+          >
+            Clients
+          </a>
+          <a
+            href="#roadmap"
+            className="text-muted-foreground hover:text-foreground transition-colors"
+          >
+            Roadmap
+          </a>
+          <a
+            href="#team"
+            className="text-muted-foreground hover:text-foreground transition-colors"
+          >
+            Team
+          </a>
+          <Button size="sm">
             <a href="#contact">Free Consultation</a>
           </Button>
         </nav>
@@ -60,8 +85,10 @@ export const Navbar: React.FC = () => {
               {item}
             </a>
           ))}
-          <Button asChild className="w-full mt-2">
-            <a href="#contact" onClick={() => setOpen(false)}>Free Consultation</a>
+          <Button className="w-full mt-2">
+            <a href="#contact" onClick={() => setOpen(false)}>
+              Free Consultation
+            </a>
           </Button>
         </div>
       )}
